@@ -5,24 +5,35 @@
     <title>李智远的简历</title>
     <meta name="description" content="我是一个充满活力、对前端由衷热爱、善于发现问题的前端工程师。我目前正在寻找前端工程师岗位，希望借此机会为贵司献上我的一点绵薄之力，快招我到碗里来吧！">
     <meta name="keywords" content="李智远,前端,工作,简历">
-    <!--<link rel="shortcut icon" href="favicon.ico">-->
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="dist/css/print.min.css">
     <link rel="stylesheet" href="dist/css/fontello.min.css">
+    <style>
+        h4 a, h5 a{
+            border: 1px solid #4db6ac;
+            border-radius: 5px;
+            padding: 1px 3px;
+            margin-left: 7px;
+        }
+        /*.note a{*/
+            /*color: #004d40;*/
+        /*}*/
+    </style>
 </head>
 <body>
 <div class="container">
     <div class="sidebar">
         <div class="title">
             <img src="img/head.png">
-            <h1>李智远的简历</h1>
+            <h1>李智远</h1>
             <h2>"Write the Code. Change the World."</h2>
         </div>
         <ul class="side-info">
             <li class="someRight">
                 <dt><i class="icon-bookmark"></i>Basic info. 基本信息</dt>
-                <dd><span>个人信息:</span> 李智远 / 男 / 22岁</dd>
+                <dd><span>个人信息:</span> 李智远 / 男 / 23岁</dd>
                 <dd><span>教育经历:</span> 本科 / 浙江理工大学</dd>
-                <dd><span>Blog:</span> <a href="http://www.jianshu.com/users/45eae6119286/latest_articles" target="_blank">https://nicklzy.github.io/</a></dd>
+                <dd><span>Blog:</span> <a href="http://www.jianshu.com/users/45eae6119286/latest_articles" target="_blank">https://www.jianshu.com/Nick</a></dd>
                 <dd><span>GitHub:</span> <a href="https://github.com/Nicklzy" target="_blank">https://github.com/Nicklzy</a></dd>
             </li>
             <li class="someRight">
@@ -34,7 +45,6 @@
             <li class="someRight">
                 <dt><i class="icon-bookmark"></i>Application. 应聘岗位</dt>
                 <dd>前端工程师</dd>
-                <dd>期望薪资：8-10K</dd>
             </li>
             <!--
             <li class="skill">
@@ -83,12 +93,7 @@
             <!--<p>我是一个充满活力、对前端由衷热爱、善于发现问题的前端工程师。</p>-->
             <!--<p>我目前正在寻找前端工程师岗位，希望借此机会为贵司献上我的一点绵薄之力，快招我到碗里来吧！</p>-->
             <p>由于 PDF 受篇幅限制，推荐使用下面的在线简历查看。</p>
-        </div>
-        <div class="qr">
-            <div class="qr-in">
-                <img src="img/qr.png">
-                <p>在线简历: <a href="https://nicklzy.github.io/resume/" target="_blank">https://nicklzy.github.io/resume/</a></p>
-            </div>
+            <p>在线简历: <a href="https://nicklzy.github.io/#/info" target="_blank">https://nicklzy.github.io</a></p>
         </div>
 
     </div>
@@ -96,8 +101,31 @@
         <ul class="main-info">
             <li>
                 <dt><i class="icon-bookmark"></i>Experience. 项目经验</dt>
+                <h3>泛海科技有限公司</h3>
+                <ul class="exp">
+                    <li>
+                        <div class="circle"></div>
+                        <h4>云镜网站项目（2016.12）
+                            <a href="https://58ee.top/" target="_blank"><i class="icon-link"></i>网站</a>
+                        </h4>
+                        <p>参与云镜企业产品模块改进，根据设计需求，完善首营企业、我的产品等模块。使用bootstrap框架对产品UI进行完善，采用ejs模板。使用sail.js框架，对后台数据进行处理。操作MySQL添加模块中新增的数据种类</p>
+                        <p>本项目采用AngularJS框架和bootstrap框架来实现前端组件及数据交互，后端采用sail.js框架，数据库采用MySQL</p>
+                        <img src="img/glasses.png">
+                    </li>
+                </ul>
                 <h3>个人项目</h3>
                 <ul class="exp">
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            个人简历模板
+                            <a href="https://github.com/Nicklzy/job" target="_blank"><i class="icon-link"></i>源代码</a>
+                            <a href="https://nicklzy.github.io/#/info" target="_blank"><i class="icon-link"></i>Demo</a>
+                        </h4>
+                        <p>项目描述：基于vue.js框架搭建的个人简历模板，使用vue-cli开发的单页项目</p>
+                        <p>使用技术：vue-cli、vue.js、vue-router、stylus、webpack、CSS3动画、响应式</p>
+                        <img src="img/job.png">
+                    </li>
                     <li>
                         <div class="circle"></div>
                         <h4>
@@ -105,7 +133,7 @@
                             <a href="https://github.com/Nicklzy/music" target="_blank"><i class="icon-link"></i>源代码</a>
                             <a href="http://book.jirengu.com/jirengu-inc/jrg-renwu5/%E6%9D%8E%E6%99%BA%E8%BF%9C/music/index.html" target="_blank"><i class="icon-link"></i>Demo</a>
                         </h4>
-                        <p>项目描述：网页版FM播放器，音乐数据基于百度音乐FM，风格简介大方</p>
+                        <p>项目描述：界面优雅的音乐播放页面，依赖百度fm的海量音乐资源，支持切换频道，上一曲\下一曲，暂停\播放，循环播放，随机播放，歌词同步显示。</p>
                         <p>使用技术：HTML5、CSS3、自定义字体、响应式、ajax、正则、audio元素的相关属性操作、jQuery常见操作、动画、计时器、math对象、DOM对象操作</p>
                         <img src="img/aplayer.png">
                     </li>
@@ -116,8 +144,8 @@
                             <a href="https://github.com/Nicklzy/weather" target="_blank"><i class="icon-link"></i>源代码</a>
                             <a href="https://www.npmjs.com/package/weatherget" target="_blank"><i class="icon-link"></i>npm</a>
                         </h4>
-                        <p>项目描述：一个命令行查询国内城市天气工具，参数为城市拼音，缺省值为当前城市</p>
-                        <p>使用技术： nodejs、npm、github</p>
+                        <p>项目描述：一个基于nodejs制作的命令行查询国内城市天气工具，调用公共的天气API接口。参数为城市拼音，缺省值为当前城市</p>
+                        <p>使用技术： nodejs、npm发布、github、加载、封装模块、http请求、JSON数据解析</p>
                         <img src="img/weather.png">
                     </li>
                     <li>
@@ -128,7 +156,7 @@
                             <a href="http://book.jirengu.com/jirengu-inc/jrg-renwu5/%E6%9D%8E%E6%99%BA%E8%BF%9C/carousel/carousel.html" target="_blank"><i class="icon-link"></i>Demo</a>
                             <a href="http://book.jirengu.com/jirengu-inc/jrg-renwu5/%E6%9D%8E%E6%99%BA%E8%BF%9C/carousel/gradient.html" target="_blank"><i class="icon-link"></i>Demo</a>
                         </h4>
-                        <p>项目描述：基于jQuery的轮播插件，包括渐变轮播与滚动轮播。可以自适应宽度、自适应图片数量，有方便的切换按钮</p>
+                        <p>项目描述：基于jQuery的轮播插件，包括渐变轮播与滚动轮播。可以自适应宽度、自适应图片数量</p>
                         <p>使用技术：jQuery、jQuery动画</p>
                         <img src="img/carousel.png">
                     </li>
@@ -153,56 +181,35 @@
             </li>
             <li>
                 <dt><i class="icon-bookmark"></i>Skill. 技能清单</dt>
-                <h3>Web前端</h3>
                 <ul class="exp">
                     <li>
                         <div class="circle"></div>
                         <h4>HTML / CSS</h4>
-                        <p>熟悉W3C规范、开发调试、浏览器兼容、代码可读性、常见布局、HTML5、CSS3、盒模型、浮动定位、BFC、CSS3动画、flex、栅格、响应式</p>
-                        <!--<p>能够编写语义化的 HTML，模块化的 CSS，完成相应的布局</p>-->
-                        <p>能够使用bootstrap, less, postcss等CSS框架</p>
+                        <p>熟悉W3C规范、开发调试、浏览器兼容、代码可读性、常见布局、HTML5、CSS3、盒模型、浮动定位、BFC、CSS3动画、flex、栅格、响应式、可准确还原设计稿</p>
+                        <p>熟悉stylus，能够使用bootstrap, less, postcss等CSS框架</p>
                     </li>
                     <li>
                         <div class="circle"></div>
                         <h4>JavaScript</h4>
-                        <p>熟悉原生Javascript、事件模型、DOM 操作、math对象、计时器、ajax、jsonp、跨域、闭包、原型链、面向对象、封装、jQuery、jQuery 插件、RequireJS、UI 组件</p>
-                        <p>熟悉模块化、面向对象的方式编程、</p>
+                        <p>熟悉原生Javascript、事件模型、DOM 操作、math对象、计时器、闭包、原型链、封装、jQuery</p>
+                        <p>熟悉ajax、jsonp、跨域</p>
+                        <p>熟悉模块化、面向对象的方式编程</p>
                     </li>
                     <li>
                         <div class="circle"></div>
                         <h4>框架、工具</h4>
-                        <p>熟悉requirejs、npm,能够使用Gulp等前端自动化工具</p>
-                        <p>熟悉Sublime、WebStorm、Atom、git</p>
+                        <p>熟悉requirejs、npm，能够使用Gulp、webpack等前端自动化工具</p>
+                        <p>熟悉vue框架，善于使用vue-cli搭建单页应用</p>
+                        <p>熟悉Sublime、WebStorm、git、Vim</p>
                     </li>
                     <li>
                         <div class="circle"></div>
                         <h4>后端</h4>
-                        <p>熟悉webserver、http、php</p>
+                        <p>熟悉webserver、http、能使用php做简单接口调试</p>
                         <p>能使用nodejs制作简单工具</p>
+                        <p>了解MySQL</p>
                     </li>
                 </ul>
-                <!--
-                <h3>后端</h3>
-                <ul class="exp">
-                    <li>
-                        <p>熟悉 Linux 开发环境、 Linux 服务器环境搭建部署，两年 Linux 日常使用经验</p>
-                        <p>了解 Apache Nginx web服务器，一年多建站经验</p>
-                        <p>了解 Python，能够实现简单的爬虫、数据及图像处理工具、自动化脚本</p>
-                        <p>了解 C，读过《C Primer Plus》，能编写简单的解释器</p>
-                        <p>了解 Java，能进行简单的网络编程和多线程编程</p>
-                    </li>
-                </ul>
-                <h3>其他</h3>
-                <ul class="exp">
-                    <li>
-                        <p>是一个有趣的人，博客日均浏览量 1000+，GitHub Followers 270+，微博粉丝 660+，微信公众号关注用户 400+</p>
-                        <p>严重强迫症，不能忍受界面一个像素的偏差，同样不能忍受代码格式一个空格的偏差</p>
-                        <p>学习能力强，以上绝大多数的技能都是大三转专业之后自学修得的</p>
-                        <p>掌握 Vim Git 等开发工具的使用</p>
-                        <p>能够熟练使用 Markdown 进行写作</p>
-                    </li>
-                </ul>
-                -->
             </li>
         </ul>
     </div>
